@@ -5,6 +5,7 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
 /* Header Section */
 .banner{
     background-image: url(../assets/Hero-bg.png);
@@ -19,16 +20,56 @@
 .banner-title{
     font-size:48px ;
 }
-.banner-description{
-    font-size: 16px;
-    font-weight: 400px;
-    padding:0px 294px 45px 294px;   
-}
 .contact{
     background-color: rgb(13, 19, 33); 
     color: white;
     font-size: 20px;
     border-radius: 8px;
     padding: 21px 24px 21px 24px;
+    
 
+}
+/* -----Header Complete------ */
+
+
+/* ------Shared CSS----------- */
+.banner-description{
+    font-size: 16px;
+    font-weight: 400px;
+    padding:0px 294px 15px 294px;   
+    opacity: 0.7;  
+}
+.primary-title{
+    font-size:32px ; 
+    text-align: center;  
+}
+/* ------Main Section------ */
+main{
+    margin: 0 auto;
+    width: 1140px;
+}
+.developer-reason-section{
+    padding: 80px 97px 80px 97px;
+}
+.developer-reason-description{
+    font-size: 16px;
+    font-weight: 400px;
+    opacity: 0.7;
+}
+.developer-quick-content{
+    display: flex;
+    gap: 107px;
+    margin-top: 48px;
+}
+.developer-task-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+
+}
+.developer-task-details{
+    font-size: 16px;
+    font-weight: 400px;
+    opacity: 0.7;
+    padding-right: 110px;
 }
