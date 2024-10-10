@@ -124,14 +124,15 @@
       border: 1px solid rgba(13, 19, 33, 0.2);
       border-radius: 16px;
       padding: 32px;
+      margin-bottom: 150px;
   }
   iframe{
       border-radius: 16px;
+      
   }
   /* --My Inspiration Section End */
   /* ----My Current Target----- */
   .current-target{
-      margin-top: 150px;
       text-align: center;
   }
   .current-target-title{
@@ -241,17 +242,18 @@
       background-color:rgba(13, 19, 33, 0.03) ;
       
   }
-  .footer-section{
-      width: 1140px;
+  .footer-section-1{
+      width: 1898px;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;
-      padding: 32px 0px 32px 0px;  
+      padding: 32px 0px 32px 138px;  
   }
-  .social-media{
-    padding: 10px;
+  .social-media-1{ 
+    text-align: right;
   }
-  .my-comitmnet{
+  .my-comitmnet-1{
     font-weight: 600;
     font-size: 20px;
   }
+   /* ---Footer End---- */
