@@ -1,8 +1,7 @@
 
 .azeret-mono-normal {
-    font-family: "Azeret Mono", monospace;
+    font-family: "Azeret Mono" ;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
   }
   
@@ -41,7 +40,7 @@
   .banner-description{
       font-size: 16px;
       font-weight: 400px;
-      padding:0px 294px 12px 294px;   
+      padding:0px 294px 10px 294px;   
       opacity: 0.7;  
   }
   .primary-title{
@@ -66,6 +65,10 @@
       background-color: rgba(13, 19, 33, 0.02);
       border-radius: 16px;
   }
+  .developer-reason-description {
+    text-align: center;
+    
+  }
   .developer-quick-content{
       display: flex;
       gap: 107px;
@@ -88,7 +91,7 @@
       padding: 12px 20px 12px 20px;
       background-color: white;
       border: 1px solid rgb(13, 19, 33,0.7 );
-      margin-top: 32px;
+      margin-top: 10px;
   
   }
   main button a {
@@ -105,8 +108,15 @@
       margin: 0 auto;
       text-align: center;
   }
+.my-inspiration-title{
+    font-weight: 800;
+}
   .my-inspiration-details{
       padding: 0px 144px 48px 144px;
+     
+  }
+  .line-height{
+    line-height: 25px;
   }
   
   .video{
@@ -240,4 +250,8 @@
   }
   .social-media{
     padding: 10px;
+  }
+  .my-comitmnet{
+    font-weight: 600;
+    font-size: 20px;
   }
