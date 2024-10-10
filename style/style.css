@@ -26,6 +26,7 @@
     font-size: 20px;
     border-radius: 8px;
     padding: 21px 24px 21px 24px;
+    margin-bottom: 10px;
     
 
 }
@@ -36,30 +37,38 @@
 .banner-description{
     font-size: 16px;
     font-weight: 400px;
-    padding:0px 294px 15px 294px;   
+    padding:0px 294px 12px 294px;   
     opacity: 0.7;  
 }
 .primary-title{
     font-size:32px ; 
     text-align: center;  
 }
+.primary-font{
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+}
 /* ------Main Section------ */
 main{
     margin: 0 auto;
     width: 1140px;
 }
-.developer-reason-section{
+.why-dev-section{
     padding: 80px 97px 80px 97px;
-}
-.developer-reason-description{
-    font-size: 16px;
-    font-weight: 400px;
-    opacity: 0.7;
+    margin-top: 74px;
+    margin-bottom: 90px;
+    background-color: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
 }
 .developer-quick-content{
     display: flex;
     gap: 107px;
-    margin-top: 48px;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 32px;
 }
 .developer-task-title{
     color: rgba(13, 19, 33, 0.7);
@@ -68,8 +77,33 @@ main{
 
 }
 .developer-task-details{
-    font-size: 16px;
-    font-weight: 400px;
-    opacity: 0.7;
     padding-right: 110px;
+    
 }
+.developer-task-details button{
+    padding: 12px 20px 12px 20px;
+    background-color: white;
+    border: 1px solid rgb(13, 19, 33,0.7 );
+    margin-top: 32px;
+
+}
+button a {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Azeret Mono;
+    opacity: 0.7;
+}
+/* ----My Inspiration Section Starts---- */
+.my-inspiration{
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.my-inspiration-details{
+    padding: 0px 144px 48px 144px;
+}
+
+/* ---My  */
