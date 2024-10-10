@@ -106,4 +106,55 @@ button a {
     padding: 0px 144px 48px 144px;
 }
 
+.video{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+}
+iframe{
+    border-radius: 16px;
+}
+/* --My Inspiration Section End */
+/* ----My Current Target----- */
+.current-target{
+    margin-top: 150px;
+    text-align: center;
+}
+.current-target-title{
+    font-size: 32px;   
+}
+.current-target-details{
+    color: rgb(13, 19, 33);
+    
+}
+.current-target-properties{
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 111px;
+}
+.properties-1{
+    background-color:rgba(255, 76, 30, 0.05) ;
+    padding:40px;
+    text-align: left;
+    border-radius: 16px;
+}
+.properties-2{
+    background-color:rgba(0, 76, 232, 0.05  ) ;
+    padding:40px;
+    text-align: left;
+    border-radius: 16px;
+}
+.properties-3{
+    background-color:rgba(255, 223, 0, 0.05) ;
+    padding:40px;
+    text-align: left;
+    border-radius: 16px;
+}
+/* ---My Current Target End--- */
+
+/* ---Footer starts---- */
+
+
 /* ---My  */
