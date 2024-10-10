@@ -84,7 +84,7 @@
       padding-right: 110px;
       
   }
-  .developer-task-details button{
+  .developer-task button {
       padding: 12px 20px 12px 20px;
       background-color: white;
       border: 1px solid rgb(13, 19, 33,0.7 );
@@ -96,7 +96,6 @@
       font-size: 20px;
       font-weight: 600;
       text-decoration: none;
-      box-sizing: border-box;
       font-family: Azeret Mono;
       opacity: 0.7;
   }
