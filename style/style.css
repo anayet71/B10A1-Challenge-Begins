@@ -1,214 +1,218 @@
 
 .azeret-mono-normal {
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-/* Header Section */
-.banner{
-    background-image: url(../assets/Hero-bg.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 1440px;
-    height: 652px;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 26px;
-}
-.banner-title{
-    font-size:48px ;
-}
-.contact{
-    background-color: rgb(13, 19, 33); 
-    color: white;
-    font-size: 20px;
-    border-radius: 8px;
-    padding: 21px 24px 21px 24px;
-    margin-bottom: 10px;
-    
-
-}
-/* -----Header Complete------ */
-
-
-/* ------Shared CSS----------- */
-.banner-description{
-    font-size: 16px;
-    font-weight: 400px;
-    padding:0px 294px 12px 294px;   
-    opacity: 0.7;  
-}
-.primary-title{
-    font-size:32px ; 
-    text-align: center;  
-}
-.primary-font{
-    font-size: 16px;
-    font-weight: 400px;
-    color: rgb(13, 19, 33);
-    opacity: 0.7;
-}
-/* ------Main Section------ */
-main{
-    margin: 0 auto;
-    width: 1140px;
-}
-.why-dev-section{
-    padding: 80px 97px 80px 97px;
-    margin-top: 74px;
-    margin-bottom: 90px;
-    background-color: rgba(13, 19, 33, 0.02);
-    border-radius: 16px;
-}
-.developer-quick-content{
-    display: flex;
-    gap: 107px;
-    padding: 48px;
-    border-radius: 16px;
-    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
-    margin-bottom: 32px;
-}
-.developer-task-title{
-    color: rgba(13, 19, 33, 0.7);
-    font-size: 24px;
-    font-weight: 700;
-
-}
-.developer-task-details{
-    padding-right: 110px;
-    
-}
-.developer-task-details button{
-    padding: 12px 20px 12px 20px;
-    background-color: white;
-    border: 1px solid rgb(13, 19, 33,0.7 );
-    margin-top: 32px;
-
-}
-button a {
-    color: rgb(13, 19, 33);
-    font-size: 20px;
-    font-weight: 600;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
+  /* Header Section */
+  .banner{
+      background-image: url(../assets/Hero-bg.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 1440px;
+      height: 652px;
+      text-align: center;
+      margin: 0 auto;
+      padding-top: 26px;
+  }
+  .banner-title{
+      font-size:48px ;
+  }
+  .contact{
+      background-color: rgb(13, 19, 33); 
+      color: white;
+      font-size: 20px;
+      border-radius: 8px;
+      padding: 21px 24px 21px 24px;
+      margin-bottom: 10px;
+      
+  
+  }
+  header button a{
+    font-family: Azeret Mono;
     text-decoration: none;
-    box-sizing: border-box;
-    font-family: Azeret Mono;
-    opacity: 0.7;
-}
-/* ----My Inspiration Section Starts---- */
-.my-inspiration{
-    max-width: 1170px;
-    margin: 0 auto;
-    text-align: center;
-}
-.my-inspiration-details{
-    padding: 0px 144px 48px 144px;
-}
-
-.video{
-    box-sizing: border-box;
-    border: 1px solid rgba(13, 19, 33, 0.2);
-    border-radius: 16px;
-    padding: 32px;
-}
-iframe{
-    border-radius: 16px;
-}
-/* --My Inspiration Section End */
-/* ----My Current Target----- */
-.current-target{
-    margin-top: 150px;
-    text-align: center;
-}
-.current-target-title{
-    font-size: 32px;   
-}
-.current-target-details{
-    color: rgb(13, 19, 33);
-    
-}
-.current-target-properties{
-    display: flex;
-    gap: 24px;
-    margin-top: 48px;
-    margin-bottom: 111px;
-}
-.properties-1{
-    background-color:rgba(255, 76, 30, 0.05) ;
-    padding:40px;
-    text-align: left;
-    border-radius: 16px;
-}
-.properties-2{
-    background-color:rgba(0, 76, 232, 0.05  ) ;
-    padding:40px;
-    text-align: left;
-    border-radius: 16px;
-}
-.properties-3{
-    background-color:rgba(255, 223, 0, 0.05) ;
-    padding:40px;
-    text-align: left;
-    border-radius: 16px;
-}
-/* ---My Current Target End--- */
-
-/* --Support Form Starts */
-.support{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/handshake.jpg');
-    background-repeat: no-repeat;
-    width: 1140px ;
-    height: 313px;
-    background-position-x: center;
-    background-position-y: center;
-    text-align: center;
-    color: white;
-    padding: 64px 48px 64px 48px;
-    border-radius: 16px;
-    margin-bottom:80px ;
-}
-.support-title{
-    font-size: 32px;
-    font-weight: 700;
-}
-.support-details{
-    padding: 0px 219px 0px 219px; 
-    color: rgb(255, 255, 255, 0.7);
-}
-.feedback{
-    width:584px ;
-    height: 20px;
-    padding: 19px;
-    color: rgba(13, 19, 33, 0.4);
-    font-family: Azeret Mono;
-    border-radius: 16px;
-
-   
-
-}
-.submit{
-    border-radius: 8px;
-    background: rgb(255, 255, 255); 
-    padding: 14px 20px 19px 20px;
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 20px;
-
-}
-/* --Support From End-- */
-
-/* ---Footer starts---- */
-footer{
-    width:1440px ;
-    margin: 0 auto;
-    background-color:rgba(13, 19, 33, 0.03) ;
-    
-}
-.footer-section{
-    width: 1140px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 32px 0px 32px 0px;  
-}
+    color: white;}
+  /* -----Header Complete------ */
+  
+  
+  /* ------Shared CSS----------- */
+  .banner-description{
+      font-size: 16px;
+      font-weight: 400px;
+      padding:0px 294px 12px 294px;   
+      opacity: 0.7;  
+  }
+  .primary-title{
+      font-size:32px ; 
+      text-align: center;  
+  }
+  .primary-font{
+      font-size: 16px;
+      font-weight: 400px;
+      color: rgb(13, 19, 33);
+      opacity: 0.7;
+  }
+  /* ------Main Section------ */
+  main{
+      margin: 0 auto;
+      width: 1140px;
+  }
+  .why-dev-section{
+      padding: 80px 97px 80px 97px;
+      margin-top: 74px;
+      margin-bottom: 90px;
+      background-color: rgba(13, 19, 33, 0.02);
+      border-radius: 16px;
+  }
+  .developer-quick-content{
+      display: flex;
+      gap: 107px;
+      padding: 48px;
+      border-radius: 16px;
+      background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+      margin-bottom: 32px;
+  }
+  .developer-task-title{
+      color: rgba(13, 19, 33, 0.7);
+      font-size: 24px;
+      font-weight: 700;
+  
+  }
+  .developer-task-details{
+      padding-right: 110px;
+      
+  }
+  .developer-task-details button{
+      padding: 12px 20px 12px 20px;
+      background-color: white;
+      border: 1px solid rgb(13, 19, 33,0.7 );
+      margin-top: 32px;
+  
+  }
+  main button a {
+      color: rgb(13, 19, 33);
+      font-size: 20px;
+      font-weight: 600;
+      text-decoration: none;
+      box-sizing: border-box;
+      font-family: Azeret Mono;
+      opacity: 0.7;
+  }
+  /* ----My Inspiration Section Starts---- */
+  .my-inspiration{
+      max-width: 1170px;
+      margin: 0 auto;
+      text-align: center;
+  }
+  .my-inspiration-details{
+      padding: 0px 144px 48px 144px;
+  }
+  
+  .video{
+      box-sizing: border-box;
+      border: 1px solid rgba(13, 19, 33, 0.2);
+      border-radius: 16px;
+      padding: 32px;
+  }
+  iframe{
+      border-radius: 16px;
+  }
+  /* --My Inspiration Section End */
+  /* ----My Current Target----- */
+  .current-target{
+      margin-top: 150px;
+      text-align: center;
+  }
+  .current-target-title{
+      font-size: 32px;   
+  }
+  .current-target-details{
+      color: rgb(13, 19, 33);
+      
+  }
+  .current-target-properties{
+      display: flex;
+      gap: 24px;
+      margin-top: 48px;
+      margin-bottom: 111px;
+  }
+  .properties-1{
+      background-color:rgba(255, 76, 30, 0.05) ;
+      padding:40px;
+      text-align: left;
+      border-radius: 16px;
+  }
+  .properties-2{
+      background-color:rgba(0, 76, 232, 0.05  ) ;
+      padding:40px;
+      text-align: left;
+      border-radius: 16px;
+  }
+  .properties-3{
+      background-color:rgba(255, 223, 0, 0.05) ;
+      padding:40px;
+      text-align: left;
+      border-radius: 16px;
+  }
+  /* ---My Current Target End--- */
+  
+  /* --Support Form Starts */
+  .support{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/handshake.jpg');
+      background-repeat: no-repeat;
+      width: 1140px ;
+      height: 313px;
+      background-position-x: center;
+      background-position-y: center;
+      text-align: center;
+      color: white;
+      padding: 64px 48px 64px 48px;
+      border-radius: 16px;
+      margin-bottom:80px ;
+  }
+  .support-title{
+      font-size: 32px;
+      font-weight: 700;
+  }
+  .support-details{
+      padding: 0px 219px 0px 219px; 
+      color: rgb(255, 255, 255, 0.7);
+  }
+  .feedback{
+      width:584px ;
+      height: 20px;
+      padding: 19px;
+      color: rgba(13, 19, 33, 0.4);
+      font-family: Azeret Mono;
+      border-radius: 16px;
+  
+     
+  
+  }
+  .submit{
+      border-radius: 8px;
+      background: rgb(255, 255, 255); 
+      padding: 14px 20px 19px 20px;
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 20px;
+  
+  }
+  /* --Support From End-- */
+  
+  /* ---Footer starts---- */
+  footer{
+      width:1440px ;
+      margin: 0 auto;
+      background-color:rgba(13, 19, 33, 0.03) ;
+      
+  }
+  .footer-section{
+      width: 1140px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      padding: 32px 0px 32px 0px;  
+  }
