@@ -137,6 +137,7 @@
       margin-top: 48px;
       margin-bottom: 111px;
   }
+ 
   .properties-1{
       background-color:rgba(255, 76, 30, 0.05) ;
       padding:40px;
@@ -154,6 +155,28 @@
       padding:40px;
       text-align: left;
       border-radius: 16px;
+  }
+  .properties-1-title{
+    font-size: 24px;
+    font-weight: 800; 
+  }
+  .properties-1-details{
+    font-size: 16px;
+    font-weight: 400px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+  }
+  .properties-1 a{
+    font-weight: 700;
+    color: black;
+  }
+  .properties-2 a{
+    font-weight: 700;
+    color: black;
+  }
+  .properties-3 a{
+    font-weight: 700;
+    color: black;
   }
   /* ---My Current Target End--- */
   
@@ -214,4 +237,7 @@
       display: flex;
       justify-content: space-between;
       padding: 32px 0px 32px 0px;  
+  }
+  .social-media{
+    padding: 10px;
   }
